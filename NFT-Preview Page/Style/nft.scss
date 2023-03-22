@@ -1,0 +1,60 @@
+$color1:cyan;
+$color2:rgb(38, 38, 83);
+
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: $color2;
+}
+
+@media(max-width:1440px) {
+  
+    
+}
+
+@media(min-width:375px) {
+  
+}
+
+.Container{
+    background-color: rgb(10, 20, 63);
+    width: 200px;
+    height: 450px;
+    margin:250px;
+    padding: 10px;
+    
+
+   img{
+    height: 200px;
+    width: 200px;
+
+    }
+    h3{
+        color: white;
+    }
+
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:18px;
+        color:rgb(121, 117, 117);
+        
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .row > .col-1{
+        color: $color1;
+    }
+    .row > .col-2{
+        color:rgb(121, 117, 117);
+    }
+     .row > .col-3{
+        border-radius: 1px solid white;
+
+     }
+     .row > .col-3 > img{
+        height: 30px;
+        width: 30px;
+     }
+}
